@@ -1,2 +1,41 @@
 
 /* Your CSS Code here. */
+  <title>IMDb Movie Detail</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    /* Movie Poster */
+    .moviePic {
+      height: 400px;
+      width: 300px;
+      opacity: 0.9;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: opacity 0.3s ease;
+    }
+
+    .moviePic:hover {
+      opacity: 1;
+    }
+
+    /* Movie Description */
+    .movieDetail {
+      position: relative;
+      top: 20px;
+      width: 70%;
+      text-align: center;
+      font-size: 18px;
+      color: #333;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
